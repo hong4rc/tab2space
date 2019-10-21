@@ -13,8 +13,11 @@
   },
   "bugs": "https://github.com/Hongarc/tab2space/issues",
   "repository": "github:Hongarc/tab2space",
-  "keywords": ["tab", "whitespace"],
-  "dependencies": {
+  "keywords": [
+    "tab",
+    "whitespace"
+  ],
+  "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
