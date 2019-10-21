@@ -1,0 +1,23 @@
+{
+  "name": "tab2space",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "description": "Change tab to space without change width of line",
+  "author": "Hongarc <aqua.hong.97@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": "https://github.com/Hongarc/tab2space/issues",
+  "repository": "github:Hongarc/tab2space",
+  "keywords": ["tab", "whitespace"],
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0"
+  }
+}
