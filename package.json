@@ -9,6 +9,8 @@
   "author": "Hongarc <aqua.hong.97@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint index.js",
+    "fix": "eslint index.js --fix",
     "test": "jest"
   },
   "bugs": "https://github.com/Hongarc/tab2space/issues",
