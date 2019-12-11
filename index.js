@@ -2,9 +2,9 @@ const mapRegex = {};
 
 const getOptions = (length) => {
   if (!Object.prototype.hasOwnProperty.call(mapRegex, length)) {
-    const mapLength = [];
-    for (let i = length; i > 0; --i) {
-      mapLength.push(' '.repeat(i));
+    const mapLength = [' '];
+    for (let i = length - 1; i > 0; --i) {
+      mapLength.unshift(' ' + mapLength[0]);
     }
     mapRegex[length] = {
       regex: new RegExp(`([^\t\n\r]{0,${length - 1}})\t|([^\t\n\r]{${length}})`, 'g'),
