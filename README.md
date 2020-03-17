@@ -20,7 +20,23 @@ tab2space('This\tis\ttab', 5);
 
 ## API
 
-### tab2space(str: string, [length: number])
+### tab2space(str: string, [options])
 
 #### `str`
-#### `length` is a Integer >= 1
+#### options
+
+Type: `object`
+
+##### length
+
+Type: `integer`
+Default: `4`
+
+Length indent for tab
+
+##### replacement
+
+Type: `string`
+Default: `4`
+
+Replace for tab
