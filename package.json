@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "eslint index.js",
     "fix": "eslint index.js --fix",
-    "test": "jest"
+    "test": "jest --color"
   },
   "bugs": "https://github.com/Hongarc/tab2space/issues",
   "repository": "github:Hongarc/tab2space",
