@@ -5,3 +5,6 @@ package-lock.json
 
 # Coverage
 coverage
+
+# Benchmark new method
+compare.js
