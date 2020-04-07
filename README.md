@@ -1,4 +1,6 @@
 # tab2space
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHongarc%2Ftab2space.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHongarc%2Ftab2space?ref=badge_shield)
+
 
 > Change tab to space without change width of line
 
@@ -40,3 +42,7 @@ Type: `string`
 Default: `4`
 
 Replace for tab
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHongarc%2Ftab2space.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHongarc%2Ftab2space?ref=badge_large)
